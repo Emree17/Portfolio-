@@ -1,0 +1,281 @@
+@font-face {
+    font-style: normal;
+    font-family: "Meslo LG";
+    
+    font-display: swap;
+  }
+  
+  body {
+      margin: 0;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      animation: fadeInAnimation ease 3s;
+      animation-iteration-count: 1; 
+      animation-fill-mode: forwards; 
+      scroll-behavior: smooth;
+     
+      
+      @keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        } 
+      } 
+    }
+    
+    h1,h2,h3,h4,h5 {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+      margin-bottom: 1.45rem;
+      color: inherit;
+     
+  
+      font-family: "Source Sans Pro", sans-serif;
+  
+      font-weight: bold;
+      text-rendering: optimizeLegibility;
+      font-size: 2rem;
+      line-height: 1.1;
+    }
+    h2 {
+      font-size: 1.62671rem;
+    }
+    h3 {
+      font-size: 1.38316rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    h5 {
+      font-size: 0.85028rem;
+    }
+    ul {
+      margin-left: 1.45rem;
+      margin-right: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+      margin-bottom: 1.45rem;
+      list-style-position: outside;
+      list-style-image: none;
+    }
+  
+  
+    @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400|Dosis:300,400,700&display=swap');
+  
+  
+  article {
+    
+    justify-content: center;
+    max-width: 880px;
+    margin-top: 140px;
+    margin-bottom: 200px;
+    padding: 12px;
+     font-family: "Source Sans Pro", sans-serif;
+    
+    color: #36363C;
+  
+    @media only screen and (max-width: 600px) {
+      margin-top: 120px;
+      margin-bottom: 30px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+    }
+  }
+    h1 {
+      font-weight: 300;
+      line-height: 1.5;
+      font-size: 2.1rem;
+    }
+  
+    .highlight-link {
+      text-decoration: none;
+      color: #ffffff;
+      display: inline-block;
+      padding: 0px 7px;
+      transition: all .2s ease-in-out;
+      box-sizing: border-box;
+      text-decoration: none;
+      box-shadow: inset 0 -3px 0 gold;
+    }
+      .highlight-link:hover {
+        box-shadow: inset 0 -47px 0 0 goldenrod;
+        color: white;
+      }
+    
+
+    .arrow-link {
+      color: #2bbc8a; 
+     
+      font-weight: bold;
+      border: #2bbc8a;
+     
+      font-family: "Source Sans Pro", sans-serif;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 22px;
+      margin-top: 30px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all .3s ease-in-out;
+  
+      background-color: #1d1f21;
+      color: #2bbc8a; 
+      border: 2px solid #2bbc8a;
+  
+      @media only screen and (max-width: 600px) {
+        
+        
+        padding: 8px 18px;
+        margin-top: 20px;
+        font-size: 15px;
+      }
+    }
+      .arrow-link:after {
+        position: relative;
+        bottom: 0.2ex;
+        margin-left: 10px;
+        border: 2px solid gainsboro;
+       color: green;
+       
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.5rem;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transition: all .15s ease-in-out;
+      }
+      .arrow-link:hover {
+        transition: all .3s ease-in-out;
+        background-color: rgba(101, 248, 224, 0.07);
+        color: gold;
+      }
+  
+      .arrow-link:hover:after {
+        transform: translateX(7px);
+      }
+    
+  
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
+  
+  .intro {
+    margin-top: 100px;
+    color: ghostwhite;
+   
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.3rem;
+    @media only screen and (max-width: 600px) {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+  }
+  
+  .name {
+    color: #ffffff;
+   
+    margin-left: -3px;
+    font-size: 3.9rem;
+    font-weight: 800;
+  
+    @media only screen and (max-width: 600px) {
+      font-size: 2.1rem;
+      margin-left: 0px;
+    }
+  }
+  
+  .aftername {
+    margin-top: -10px;
+    font-size: 3.6rem;
+    color: #929191;
+    font-weight: 800;
+    
+    @media only screen and (max-width: 600px) {
+      font-size: 1.8rem;
+    }
+  }
+  
+  .desc {
+    margin-top: 30px;
+   
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.25rem;
+    margin-inline-end: 350px;
+    font-weight: bold;
+    color: #cccaca;
+    font-weight: lighter;
+  
+    @media only screen and (max-width: 600px) {
+      margin-top: 10px;
+      margin-inline-end: 0px;
+      font-size: 1.1rem;
+    }
+  }
+  
+  .mail {
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: gold;
+  }
+  
+  
+  .contain {
+    display: inline-block;
+    
+  }
+  
+  
+    span.animate-hand {
+      animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
+      animation-duration: 2.2s;          /* Change to speed up or slow down */
+      animation-iteration-count: infinite;    /* Never stop waving :) */
+      transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
+      display: inline-block;
+      font-size: 1.4rem;
+  
+      @media only screen and (max-width: 600px) {
+        
+        font-size: 1.2rem;
+      }
+    }
+    
+    @keyframes wave-animation {
+        0% { transform: rotate(  0.0deg) }
+       10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
+       20% { transform: rotate( 12.0deg) }
+       30% { transform: rotate(-10.0deg) }
+       40% { transform: rotate(  9.0deg) }
+       50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
+      100% { transform: rotate(  0.0deg) }
+    }
+  
+  
+    
+  .me {
+    
+    display: inline-block;
+    vertical-align : 30px;
+    width: 248px;
+    margin-bottom: 30px;
+  
+    @media only screen and (max-width: 600px) {
+  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        width: 45%;
+    }
+  }

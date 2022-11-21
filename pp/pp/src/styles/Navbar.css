@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@font-face {
+  font-style: normal;
+  font-family: "Meslo LG";
+ 
+  font-display: swap;
+}
+
+
+
+a {
+    color: #ffffff;
+   
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+    .a:hover {
+        color: lawngreen;    
+    }
+
+  
+
+  /* header */
+  
+  .header {
+    transition: top 0.5s;
+    margin-left: -328px;
+    background-color: #1d1f21;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.3);
+     position: fixed;
+     width: 100%;
+     z-index: 3;
+
+    @media only screen and (max-width: 2560px) {
+      max-width: 1368px;
+      margin-left: -60px;
+    }
+    
+    @media only screen and (max-width: 1368px) {
+      max-width: 1300px;
+      margin-left: 0px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+      max-width: 700px;
+      margin-left: 0px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        margin-left: 0px;
+    }
+  }
+
+  .header ul {
+    
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 24px 20px;
+    position: relative;
+    user-select: none;
+
+  }
+  
+  .header .menu-icon .navicon {
+    background: #ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+    margin-top: 10px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+    
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    margin-right: auto;
+    
+    max-height: 350px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+    
+    
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+    
+    
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+      
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+      
+    }
+    .header .menu-icon {
+      display: none;
+      
+    }
+  }
+  
+
+  .resume {
+    color: lawngreen; 
+    font-weight: bold;
+    border: indigo;
+    
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+    background-color: #1d1f21;
+    color: salmon; 
+    border: 2px solid saddlebrown;
+    border-radius: 4px;
+
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid saddlebrown;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+
+    @media only screen and (max-width: 600px) {    
+        margin-left: 20px ;
+      font-size: 12px;
+    }
+}
+
+    .resume:after {
+      position: relative;
+      bottom: 0.2ex;
+   
+      transition: all .3s ease-in-out;
+      
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 1.5rem;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transition: all .15s ease-in-out;
+    }
+
+    .resume:hover {
+      transition: all .3s ease-in-out;
+      background-color: rgba(100, 180, 255, 0.07);
+      color: sandybrown;
+    }
+
+    .resume:hover:after {
+
+      transform: translateX(7px);
+    }
+  
+
+  .res {
+    transition: all .3s ease-in-out;
+
+      text-decoration: none;
+  }
+
+  .ind {
+    transition: all .3s ease-in-out;
+    scroll-behavior: smooth;
+  }
+
+  .logo {
+    transition: all .3s ease-in-out;
+  }
+
+  .resolution {
+    height: 60px;
+
+    @media only screen and (max-width: 600px) {
+      height: 58px;
+    }
+  }

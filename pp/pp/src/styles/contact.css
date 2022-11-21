@@ -1,0 +1,71 @@
+
+
+
+@font-face {
+    font-style: normal;
+    font-family: "Meslo LG";
+    
+    font-display: swap;
+  }
+  
+.cent-line {
+    color: navajowhite;
+    font-size: 1.6rem;
+   
+    font-family: "Source Sans Pro", sans-serif;
+    transition: color .2s ease-out;
+    text-align: center;
+}
+.cent-line :hover
+{
+    transition: all .3s ease-in-out;
+    color: saddlebrown
+}
+
+
+    
+    @media only screen and (max-width: 600px) {
+
+      
+    }
+
+
+.logos {
+    display: block;
+    text-align: center;
+}
+
+.logoc {
+    width: 40px;
+    padding: 15px;
+    transition: all .3s ease-in-out;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+    .logoc:hover {
+        transition: all .3s ease-in-out;
+        color: #ffffff;
+    }
+
+    @media only screen and (max-width: 600px) {
+        
+    }
+
+
+.sign {
+    margin-left: 20px;
+    margin-left: 400px;
+
+    @media only screen and (max-width: 600px) {
+        
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.fontHai {
+    @media only screen and (max-width: 600px) {
+        max-width: 30px;
+    }
+}

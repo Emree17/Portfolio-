@@ -1,0 +1,238 @@
+
+  
+   @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400|Dosis:300,400,700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+   
+   
+   
+   .heading {
+    
+    
+    
+    
+        
+       margin-top: 100px;
+       color: gold;
+       
+       margin-left: 10px;
+       font-size: 1.8rem;
+       
+       font-family: "Source Sans Pro", sans-serif;
+       animation: fadeInAnimation ease 3s;
+       animation-iteration-count: 1; 
+       animation-fill-mode: forwards; 
+      
+       @keyframes fadeInAnimation { 
+         0% { 
+             opacity: 0; 
+         } 
+         100% { 
+             opacity: 1; 
+         }
+       } 
+     
+       @media only screen and (max-width: 600px) {
+         font-size: 1.4rem;
+         margin-top: 0px;
+         display:flex;
+           margin-left: auto;
+           margin-right: auto;
+           width: 95%;
+       }
+   }
+   
+   .number-about {
+       font-size: 2rem;
+       color: magenta;
+   
+       @media only screen and (max-width: 600px) {
+           font-size: 1.3rem;
+       }
+   }
+   
+   .about-me {
+      
+       font-family: "Source Sans Pro", sans-serif;
+       color: wheat;
+       margin-left: 10px;
+       font-weight: 400;
+      font-size: 20px;
+       max-width: 1300px;
+     
+       @media only screen and (max-width: 600px) {
+           font-size: 1.1rem;
+         
+          display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 95%;
+       }
+   }
+   .about-me_bullet {
+       font-family: "Source Sans Pro", sans-serif;
+       color: #cccaca;
+       font-weight: 100;
+       font-size: 18px;
+       margin-bottom: 8px;
+       margin-left: 10px;
+   
+       @media only screen and (max-width: 600px) {
+           font-size: 1rem;
+          
+           margin-left: 20px;
+        }
+   }
+   
+   .about-me-bold {
+      
+       font-family: "Source Sans Pro", sans-serif;
+       color: #ece7e7;
+       font-weight: bolder;
+       margin-left: 10px;
+       font-size: 1.6rem;
+       max-width: 350px;
+       
+   
+       @media only screen and (max-width: 600px) {
+           font-size: 1.1rem;
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 95%;
+           margin-bottom: 10px;
+           margin-left: 20px;
+   
+       }
+   }
+   
+   .contain1 {
+      
+       
+       
+       margin-bottom: -100px;
+       
+   
+       @media only screen and (max-width: 600px) {
+   
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 95%;
+           margin-bottom: -50px;
+   
+           #no-mob {
+               display: none;
+           }
+         }
+     }
+   
+   .bold-blue {
+       color: lavender;
+       
+       font-family: "Source Sans Pro", sans-serif;
+       text-decoration: none;
+       font-weight: bold;
+   }
+   
+   .bold-yellow {
+       color: yellow;
+       
+       
+       font-family: "Source Sans Pro", sans-serif;
+       text-decoration: none;
+   }
+   .bold-yellow:hover {
+    color: yellow;
+   }
+   
+   
+      
+   
+   
+   .bold-white {
+       color: white;
+       
+       font-family: "Source Sans Pro", sans-serif;
+       text-decoration: none;
+   
+
+   }
+   .bold-white:hover{
+    color: white;
+   }
+   
+   .bold-brown {
+       color: rgb(230, 149, 84);
+       
+       font-family: "Source Sans Pro", sans-serif;
+       text-decoration: none;
+   
+   
+    
+   }
+
+   .bold-brown:hover{
+    color: rgb(235, 169, 115);
+   }
+   
+   .bold-green {
+       color: rgb(33, 236, 33);
+      
+       font-family: "Source Sans Pro", sans-serif;
+       text-decoration: none;
+   
+     
+   }
+
+   .bold-green:hover {
+    color: rgb(33, 236, 33);
+   }
+   
+   #no-mob {
+       display: block;
+   }
+   
+   .number-about {
+       text-decoration: none;
+   }
+   
+   .am-size{
+       max-width: 1250px;
+       margin-bottom: 200px;
+       @media only screen and (max-width: 600px) {
+           margin-bottom: 30px;
+       }
+   
+   }
+   
+   .am-1 {
+       margin-bottom: 50px;
+       @media only screen and (max-width: 600px) {
+           margin-bottom: 30px;
+   
+       }
+   
+   
+   }
+   
+   .about-column-1,.about-column-2,.about-column-3 {
+   
+       max-width: 600px;
+       
+       @media only screen and (max-width: 600px) {
+       
+           margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+           
+           display: block;
+   
+           #no-mob {
+               display: none;
+           }
+   
+       }
+   }
+   
+   
